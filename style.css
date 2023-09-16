@@ -1,0 +1,167 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #f2f6ff;
+}
+
+.jumbotron {
+  padding-top: 10rem;
+  display: inline-block;
+  width: 100%;
+}
+
+#about {
+  min-height: 500px;
+  padding: 2rem;
+  padding-top: 50px;
+}
+
+.about container {
+  padding-top: 1rem;
+}
+
+.container {
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+
+.display-2,
+#Name {
+  color: #4153b8;
+}
+
+.display-5 {
+  color: #4153b8;
+}
+
+.list-group {
+  text-decoration: none;
+  display: flex;
+}
+
+.periode {
+  padding-right: 4rem;
+}
+
+.Line-style {
+  height: 3px;
+  background-color: #4153b8;
+  width: 350px;
+}
+
+.container-experience {
+  padding: 10px;
+}
+
+#listGrup li {
+  padding: 10px;
+  padding-left: 5px;
+}
+
+#containerExp {
+  padding-right: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+#Name {
+  width: 100px;
+}
+
+#myProject h2 {
+  padding-top: 100px;
+}
+
+.myNavbar {
+  background-color: rgba(255, 255, 255, 0.3) !important;
+  backdrop-filter: blur(4px);
+}
+
+.card:hover {
+  transform: scale(1.07);
+}
+
+.card {
+  transition: all 0.3s;
+}
+
+.nav_link {
+  transition: all 0.3s;
+  position: relative;
+}
+
+.nav_link::after {
+  content: "";
+  height: 2px;
+  width: 100%;
+  background-color: #4153b8;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s;
+}
+
+.nav_link:hover::after {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+.nav_link:hover:active {
+  color: #4153b8;
+}
+
+.card-contact {
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px -10px rgba(0, 0, 0, 0.08);
+  -webkit-box-shadow: 10px 10px 5px -10px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: 10px 10px 5px -10px rgba(0, 0, 0, 0.08);
+}
+
+.name-container a {
+  color: #ffffff;
+  background-color: #4153b8;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: quasimoda;
+  text-decoration: none;
+}
+
+.btn {
+  position: static;
+  padding: 20px;
+  bottom: 5px;
+  width: 300px;
+}
+
+.btn:hover {
+  color: #ffffff;
+  background-color: #222538;
+}
+
+/* .name-container {
+  content: "";
+  background-color: #4153b8;
+  height: 65px;
+  border-radius: 10px;
+}
+
+.name-container:hover {
+  cursor: pointer;
+  background-color: #191d33;
+}
+
+#containerContact {
+} */
+
+@media only screen and (max-width: 1000px) {
+  .textCard p {
+    font-size: 13px !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .textCard p {
+    font-size: 20px !important;
+  }
+}
