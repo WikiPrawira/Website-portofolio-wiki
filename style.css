@@ -7,13 +7,11 @@ body {
 
 .jumbotron {
   padding-top: 10rem;
-  display: inline-block;
-  width: 100%;
 }
 
 #about {
   min-height: 500px;
-  padding: 2rem;
+  padding: 1rem;
   padding-top: 50px;
 }
 
@@ -40,13 +38,13 @@ body {
 }
 
 .periode {
-  padding-right: 4rem;
+  padding-right: 2rem;
 }
 
 .Line-style {
   height: 3px;
   background-color: #4153b8;
-  width: 350px;
+  width: 250px;
 }
 
 .container-experience {
@@ -129,7 +127,7 @@ body {
 }
 
 .btn {
-  position: static;
+  position: relative;
   padding: 20px;
   bottom: 5px;
   width: 300px;
@@ -160,8 +158,27 @@ body {
     font-size: 13px !important;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .textCard p {
     font-size: 20px !important;
+  }
+
+  #Name {
+    font-size: 17px !important;
+    position: relative;
+    margin-left: 50px;
+  }
+
+  .Line-style {
+    width: 150px;
+  }
+
+  .nav_link {
+    float: right;
+    margin-right: 20px;
+  }
+
+  .btn {
+    width: 250px;
   }
 }
